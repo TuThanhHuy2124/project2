@@ -58,6 +58,8 @@ function App() {
 
   const nextCard = () => {
     topic = shuffleTopic();
+    const root = document.getElementById("root");
+    root.style.backgroundImage = `url("src/assets/${topic.toLowerCase()}.jpg")`;
     setCard(Math.floor(Math.random()*vietCards[topic].length));
     setFace(0);
   };
