@@ -1,0 +1,10 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 5vh 10vw 0px 10vw;
+}
+
+body {
+  background-color: #D1FFC6;
+}

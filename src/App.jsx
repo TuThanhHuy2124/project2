@@ -74,10 +74,14 @@ function App() {
     <>
       <h1>The Vietnamese Card Sets</h1>
       <h2>Learn Vietnamese through flashcards!</h2>
-      <h3>Number of cards: {vietCards["Pronoun"].length + vietCards["Calendar"].length + vietCards["School"].length}</h3>
-      <h3>Current topic: {topic}</h3>
+      <div className='info'>
+        <h3>Number of cards: {vietCards["Pronoun"].length + vietCards["Calendar"].length + vietCards["School"].length}</h3>
+        <h3>Current topic: {topic}</h3>
+      </div>
       <div className={"display " + topic} onClick={flip}>{vietCards[topic][card][face]}</div>
-      <button onClick={nextCard}>Next</button>
+      <div className='nextContainer'>
+        <button onClick={nextCard}>Next</button>
+      </div>
     </>
   )
 }

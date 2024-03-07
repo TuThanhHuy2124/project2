@@ -1,12 +1,41 @@
 .display {
-    border: 1px solid white;
+    user-select: none;
+    border-radius: 20px;
+    margin-bottom: 3vh;
+    padding: 10px;
+    max-width: 80vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
 }
+
+.display:hover {
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .Pronoun {
-    background-color: red;
+    background-color: #D3C1C3;
 }
+
 .Calendar {
-    background-color: yellow;
+    background-color: #E2D0BE;
 }
+
 .School {
-    background-color: green;
+    background-color: #EEE5BF;
+}
+
+button {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 2em;
 }
