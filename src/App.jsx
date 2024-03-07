@@ -74,8 +74,8 @@ function App() {
   
   return (
     <>
-      <h1>The Vietnamese Card Sets</h1>
-      <h2>Learn Vietnamese through flashcards!</h2>
+      <h1>The Vietnamese Card Set</h1>
+      <h2>Learn Vietnamese through flashcards!<br></br>Topics include: Pronoun, Calendar, and School</h2>
       <div className='info'>
         <h3>Number of cards: {vietCards["Pronoun"].length + vietCards["Calendar"].length + vietCards["School"].length}</h3>
         <h3>Current topic: {topic}</h3>
