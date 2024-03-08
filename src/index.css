@@ -8,6 +8,7 @@
   margin: 3vh 10vw 0px 10vw;
   padding-bottom: 3vh;
   align-items: center;
+  background-image: url("src/assets/pronoun.jpg");
   background-size: cover;
   background-position: center;
 }
